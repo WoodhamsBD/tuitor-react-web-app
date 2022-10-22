@@ -19,6 +19,7 @@ const PostSummaryItem = (
        <div>{post.title}</div>
      </div>
      <div className="col-2">
+      {/* eslint-disable-next-line */}
        <img width={70} className="float-end rounded-3" src={`/images/${post.image}`}/>
      </div>
    </div>

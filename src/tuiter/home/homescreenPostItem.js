@@ -25,6 +25,7 @@ const HomeScreenPostItem = (
         <p>{post.userComment}</p>
       </div>
       <div className="card-body border border-light rounded">
+        {/* eslint-disable-next-line */}
         <img src={`/images/${post.image}`} className="rounded col-12" />
         <p className="fw-bold">{post.postTitle}</p>
         <p>{post.postDescription}</p>
