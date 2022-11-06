@@ -1,0 +1,31 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "time": "2h",
+    "image": "spacex.png",
+    "liked": true,
+    "replies": 356,
+    "retuits": 432,
+    "likes": 2374892,
+    "handle":"@spacex",
+    "tuit": "Ut non labore dolore in mollit ex adipisicing. Enim deserunt quis cupidatat sit excepteur deserunt ad dolor. Consequat exercitation esse elit magna tempor veniam. Irure et veniam in veniam ullamco fugiat magna laborum. Sit cillum proident minim non non mollit nisi sint."
+  },
+  {
+    "_id": 345,
+    "topic": "Energy",
+    "userName": "Tesla",
+    "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+    "time": "4d",
+    "image": "tesla.png",
+    "liked": true,
+    "replies": 12,
+    "retuits": 897,
+    "likes": 564,
+    "handle":"@spacex",
+    "tuit": "Ut non labore dolore in mollit ex adipisicing. Enim deserunt quis cupidatat sit excepteur deserunt ad dolor. Consequat exercitation esse elit magna tempor veniam. Irure et veniam in veniam ullamco fugiat magna laborum. Sit cillum proident minim non non mollit nisi sint."
+
+  }
+]

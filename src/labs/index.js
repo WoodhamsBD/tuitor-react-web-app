@@ -1,19 +1,20 @@
-import Classes from "./a6/classes/index";
-import Styles from "./a6/styles/index";
-import ConditionalOutput from "./a6/conditional-output";
-import TodoItem from "./a6/todo/todo-item";
-import TodoList from "./a6/todo/todo-list";
+import Nav from "../nav";
+import Assignment6 from "./a6";
+import Assignment7 from "./a7";
+import {Routes, Route} from "react-router";
 
-function Assignment6() {
+function Labs() {
  return (
    <div>
-     <h1>Assignment 6</h1>
-     <TodoList />
-     <TodoItem />
-     <ConditionalOutput />
-     <Styles/>
-     <Classes/>
+     <Nav/>
+     <Routes>
+       <Route index
+        element={<Assignment6/>}/>
+       <Route path="a7"
+        element={<Assignment7/>}/>
+     </Routes>
    </div>
- )
+ );
 }
-export default Assignment6;
+
+export default Labs;
