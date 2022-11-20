@@ -1,4 +1,7 @@
 import React from "react";
+import { deleteTuitThunk } from "../../services/tuits-thunks";
+import { useDispatch, useSelector } from "react-redux";
+
 
 const TuitItem = (
   {
@@ -18,7 +21,11 @@ const TuitItem = (
   }
   }
 ) => {
-  console.log(tuit);
+  const dispatch = useDispatch();
+  const deleteTuitHandler = (id) => {
+    dispatch(deleteTuitThunk(id))
+  }
+  // console.log(tuit);
   return (
     <div className="card m-1">
       <div className="card-header white">
